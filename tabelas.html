@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        table, th, td
+        {
+            border: 2px dotted #89f;
+        }
+        .t1
+        {
+            border: 3px double rgb(145, 88,26);
+        }
+    </style>
+</head>
+<body>
+    <h1> 
+        TABELAS EM HTML
+    </h1>
+        <table style="text-align: center;">
+            <tr>
+                <th>NOME</th>
+                <th>IDADE</th>
+                <th>UF</th>
+            </tr>
+            <tr >
+                <td>Fabio</td>
+                <td>32</td>
+                <td>rs</td>
+            </tr >
+            <tr>
+                <td>Jonatha</td>
+                <td>34</td>
+                <td>sp</td>
+            </tr>
+        </table>
+        <p><hr/></p>
+        <table class="t1">
+            <tr>
+                <th>NOME</th>
+                <th colspan="2">FONE</th>
+            </tr>
+            <tr>
+                <td>Fabio</td>
+                <td>333</td>
+                <td>666</td>
+            </tr>
+        </table>
+        <p><hr/></p>
+        <table class="t1">
+            <tr>
+                <th>NOME</th>
+                <td>Fabio</td>
+            </tr>
+            <tr>
+                <th rowspan="2">FONE</th>
+                <td>999</td>
+            </tr>
+            <tr>
+                <td>666</td>
+            </tr>
+            
+        </table>
+</body>
+</html>
